@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
  <meta charset="utf-8" />
  <meta name="description" content="Volume of sphere, PHP" />
@@ -18,7 +17,6 @@
  <title>Volume of sphere, PHP</title>
 </head>
 
-
 <body>
  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -29,24 +27,21 @@
    </header>
    <main class="mdl-layout__content">
      <div class="right-image">
-       <img src="./images/image.png" alt="sphere" width=95%>
+       <img src="./images/image.png" alt="sphere" width="95%" />
      </div>
-     <br>
+     <br />
      <div class="page-content">
        <p>Formula</p>
-       <h3>>V = (4 / 3) x ℼ x r³</h3>
+       <h3>V = (4 / 3) × &pi; × r³</h3>
      </div>
      <form action="answer.php" method="GET">
        The dimensions are:
        <div id="dimensions"></div>
-       <div id="volume"></div>  </div>
-       </div>
-       <br>
+       <div id="volume"></div>
      </form>
-     <br>
+     <br />
    </main>
  </div>
 </body>
-
 
 </html>
