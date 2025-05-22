@@ -33,10 +33,11 @@
    </div>
    <div class="page-content-php">
      <div id="employment-info">
-       <?php
+       <?PHP
+  const params = new URLSearchParams(window.location.search);
+    const radius = params.get('radius-of-sphere');
        // input
        $radiusOfSphere = $_GET["radius-of-sphere"];
-
 
        // process
        $volumeOfSphere = (4 / 3) * M_PI * ($radiusOfSphere ** 3);
