@@ -32,7 +32,7 @@
      <br />
      <div class="page-content">
        <p>Formula</p>
-       <h3>V = (4 / 3) × &pi; × r³</h3>
+       <h3>V = (4 / 3) × ℼ × r³</h3>
      </div>
      <form action="answer.php" method="GET">
        The dimensions are:

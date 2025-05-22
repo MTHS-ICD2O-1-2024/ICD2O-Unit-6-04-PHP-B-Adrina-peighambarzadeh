@@ -34,8 +34,8 @@
    <div class="page-content-php">
      <div id="employment-info">
        <?PHP
-  const params = new URLSearchParams(window.location.search);
-    const radius = params.get('radius-of-sphere');
+  $radius = $_GET['radius-of-sphere'];  // get radius from URL query parameter
+
        // input
        $radiusOfSphere = $_GET["radius-of-sphere"];
 
