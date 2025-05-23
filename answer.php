@@ -27,11 +27,11 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume-of-sphere.jpg" alt="sphere image" width="500" />
+        <img src="./images/image.png" alt="sphere image" width="500" />
       </div>
       <br />
       <div class="page-content">
-        <div>Change Query String to calculate the volume of a sphere</div>
+        <div>Change Query String to find the volume of your sphere</div>
         <?php
         // input
         $radius = floatval($_GET['radius']);

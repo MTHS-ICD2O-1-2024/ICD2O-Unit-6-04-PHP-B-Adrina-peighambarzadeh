@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>Volume of a Sphere, with a Query String</title>
+  <title>Volume of a Sphere, with a Query String, In PHP</title>
 </head>
 
 <body>
@@ -22,12 +22,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Volume of a Sphere, with a Query String</span>
+        <span class="mdl-layout-title">Volume of a Sphere, with a Query String, In PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume-of-sphere.jpg" alt="sphere image" width="500" />
+        <img src="./images/image.png" alt="sphere image" width="500" />
       </div>
       <form action="./answer.php" method="GET">
         <br />
