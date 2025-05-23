@@ -40,7 +40,7 @@
 
         // output
 
-        echo "If the radius is" . ($radiusOfSphere) . "Volume is: " . (round($volumeOfSphere, 2)) . "mm³";
+        echo "If the radius is " . ($radiusOfSphere) . " Volume is: " . (round($volumeOfSphere, 2)) . "mm³";
         ?>
       </div>
     </div>
